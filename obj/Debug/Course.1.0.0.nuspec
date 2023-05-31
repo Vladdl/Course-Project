@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Course</id>
+    <version>1.0.0</version>
+    <authors>Course</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Курсовой\Course\Course\bin\Debug\net6.0-windows\Course.runtimeconfig.json" target="lib\net6.0-windows7.0\Course.runtimeconfig.json" />
+    <file src="D:\Курсовой\Course\Course\bin\Debug\net6.0-windows\Course.dll" target="lib\net6.0-windows7.0\Course.dll" />
+  </files>
+</package>
